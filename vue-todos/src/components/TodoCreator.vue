@@ -19,7 +19,7 @@ const todoState = reactive({
 const createTodo = () => {
     if (todoState.todo === "") {
         todoState.invalid = true;
-        todoState.errMsg = "Please enter a todo";
+        todoState.errMsg = "Please enter a todo item";
         return;
     }
   console.log(todoState.todo);
