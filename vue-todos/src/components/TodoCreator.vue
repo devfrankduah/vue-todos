@@ -1,6 +1,6 @@
 <template>
   <div class="input-wrap">
-    <input type="text" placeholder="Enter a todo" v-model="todo" />
+    <input type="text" placeholder="Enter a todo item" v-model="todo" />
     <button @click="createTodo()">Create</button>
   </div>
 </template>
